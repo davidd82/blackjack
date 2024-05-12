@@ -24,6 +24,18 @@ int Deck::draw_from_deck()
 
 	// Get a random number for card to draw
 	int card = rand() % 53;
+
+    while (1) {
+        // if the card is in the deck then remove it from deck and return the card number
+        if (cards.count(card)) {
+            cards.erase(card);
+            return card;
+        } else { // else select another random card
+            card = rand() % 53;
+            continue;
+        }
+    }
+    
 }
 
 //Destructor. releases resources
