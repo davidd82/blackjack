@@ -10,6 +10,8 @@ blackjack.cpp
 using namespace std;
 
 int main(int argc, char* argv[]) {
+    vector<int> player;
+
     
     return 0;
 }
