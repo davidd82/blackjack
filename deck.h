@@ -14,5 +14,5 @@ public:
 
 // member variables
 private:
-   std::set<int> cards; // Size of tic tac toe board
+   std::set<int> cards;
 };
