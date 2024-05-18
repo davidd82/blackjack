@@ -6,4 +6,4 @@ hash: blackjack.cpp blackjack.h display.cpp display.h deck.cpp deck.h
 .PHONY: clean
 
 clean:
-	rm -f test
+	rm -f blackjack
