@@ -160,6 +160,7 @@ void Display::print_hand_dealer(std::vector<int>& hand)
     std::cout << std::endl;
 }
 
+// Function handles calculating the score of given hand
 int Display::find_score(std::vector<int>& hand)
 {
     int low_aces = 0;
